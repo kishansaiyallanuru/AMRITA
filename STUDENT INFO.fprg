@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yalla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 09:39:37 AM"/>
+        <attribute name="created" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjg7MDk6MTA6MDEgQU07MjQ3Ng=="/>
+        <attribute name="edited" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjg7MDk6Mzk6MzcgQU07NjsyNjA5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ROLLNUMBER" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER ROLL NUMBER&quot;" newline="True"/>
+            <input variable="ROLLNUMBER"/>
+            <declare name="NAME" type="String" array="False" size=""/>
+            <output expression="&quot;ENTER NAME&quot;" newline="True"/>
+            <input variable="NAME"/>
+            <declare name="ADRESS" type="String" array="False" size=""/>
+            <output expression="&quot;ENTER YOUR ADREES&quot;" newline="True"/>
+            <input variable="ADRESS"/>
+            <declare name="BLOODGROUP" type="String" array="False" size=""/>
+            <output expression="&quot;ENTER THE BLOOD GROUP&quot;" newline="True"/>
+            <input variable="BLOODGROUP"/>
+            <declare name="PHONENUMBER" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER THE PHONE NUMBER&quot;" newline="True"/>
+            <input variable="PHONENUMBER"/>
+            <declare name="DEPARTMENTASSIGNED" type="String" array="False" size=""/>
+            <output expression="&quot;ENTER THE DEPARTMENT ASSIGNED&quot;" newline="True"/>
+            <input variable="DEPARTMENTASSIGNED"/>
+        </body>
+    </function>
+</flowgorithm>

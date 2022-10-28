@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yalla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-28 10:12:46 AM"/>
+        <attribute name="created" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjg7MDk6NTA6NDggQU07MjQ5MQ=="/>
+        <attribute name="edited" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjg7MTA6MTI6NDYgQU07NTsyNTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ROLL" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER ROLL NUMBER&quot;" newline="True"/>
+            <input variable="ROLL"/>
+            <declare name="SEM" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER SEM NAME&quot;" newline="True"/>
+            <input variable="SEM"/>
+            <declare name="SUBCODE" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER SUB CODE&quot;" newline="True"/>
+            <input variable="SUBCODE"/>
+            <declare name="SUB" type="Integer" array="False" size=""/>
+            <output expression="&quot;NO OF SUB&quot;" newline="True"/>
+            <input variable="SUB"/>
+            <declare name="SUB1" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER SUB1 MARKS&quot;" newline="True"/>
+            <input variable="SUB1"/>
+            <declare name="SUB2" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER SUB2 MARKS&quot;" newline="True"/>
+            <input variable="SUB2"/>
+            <declare name="SUB3" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER SUB3 MARKS&quot;" newline="True"/>
+            <input variable="SUB3"/>
+            <declare name="TOTAL" type="Integer" array="False" size=""/>
+            <assign variable="TOTAL" expression="SUB1+SUB2+SUB3"/>
+            <output expression="&quot;TOTAL MARKS&quot;" newline="True"/>
+            <input variable="TOTAL"/>
+            <declare name="AVERAGE" type="Real" array="False" size=""/>
+            <assign variable="AVERAGE" expression="TOTAL/3"/>
+            <input variable="AVERAGE"/>
+        </body>
+    </function>
+</flowgorithm>
