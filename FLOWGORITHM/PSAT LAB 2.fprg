@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yalla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 11:06:10 AM"/>
+        <attribute name="created" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjE7MDk6NDM6NTUgQU07MjQ4NA=="/>
+        <attribute name="edited" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjE7MTE6MDY6MTAgQU07NDsyNTc4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NO1" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER THE FIRST NUMBER&quot;" newline="True"/>
+            <input variable="NO1"/>
+            <declare name="NO2" type="Integer" array="False" size=""/>
+            <output expression="&quot;ENTER THE SECOND NUMBER&quot;" newline="True"/>
+            <input variable="NO2"/>
+            <declare name="SUB" type="Integer" array="False" size=""/>
+            <if expression="NO1&gt;NO2">
+                <then>
+                    <assign variable="SUB" expression="NO1-NO2"/>
+                </then>
+                <else>
+                    <assign variable="SUB" expression="NO2-NO1"/>
+                </else>
+            </if>
+            <output expression="SUB" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yalla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 10:57:47 AM"/>
+        <attribute name="created" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjE7MTA6NDc6MzYgQU07MjQ3OQ=="/>
+        <attribute name="edited" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjE7MTA6NTc6NDcgQU07MjsyNTkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angle" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the angle&quot;" newline="True"/>
+            <input variable="angle"/>
+            <turn expression="angle" rotate="right"/>
+            <declare name="side" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter the side&quot;" newline="True"/>
+            <input variable="side"/>
+            <forward expression="side" pen="down"/>
+            <turn expression="angle" rotate="right"/>
+            <forward expression="side" pen="down"/>
+            <turn expression="angle" rotate="right"/>
+            <forward expression="side" pen="down"/>
+        </body>
+    </function>
+</flowgorithm>

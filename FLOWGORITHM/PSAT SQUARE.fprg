@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="yalla"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-21 10:11:08 AM"/>
+        <attribute name="created" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjE7MDk6NTQ6MjIgQU07MjQ4MA=="/>
+        <attribute name="edited" value="eWFsbGE7S0lTSEFOX1BDOzIwMjItMTAtMjE7MTA6MTE6MDggQU07NzsyNTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ANGLE" type="Integer" array="False" size=""/>
+            <output expression="&quot;TYPE THE ANGLE&quot;" newline="True"/>
+            <input variable="ANGLE"/>
+            <turn expression="ANGLE" rotate="left"/>
+            <declare name="SIDE" type="Integer" array="False" size=""/>
+            <output expression="&quot;TYPE THE SIDE&quot;" newline="True"/>
+            <input variable="SIDE"/>
+            <forward expression="SIDE" pen="down"/>
+            <turn expression="ANGLE" rotate="left"/>
+            <forward expression="SIDE" pen="down"/>
+            <turn expression="ANGLE" rotate="left"/>
+            <forward expression="SIDE" pen="down"/>
+            <turn expression="ANGLE" rotate="left"/>
+            <forward expression="SIDE" pen="down"/>
+        </body>
+    </function>
+</flowgorithm>
